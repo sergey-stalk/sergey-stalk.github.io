@@ -2272,10 +2272,10 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     background: #4d4d4d;
     position: absolute;
     top: 0;
-    width: 100%;
-    min-height: 940px; }
+    width: 100%; }
     #header .sl .slide {
       width: 100%;
+      max-height: 940px;
       min-height: 940px; }
     #header .sl .prev {
       left: 1%; }
@@ -2309,20 +2309,16 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
       background-color: rgba(0, 0, 0, 0.2); }
   #header .m-menu {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
     -webkit-box-align: center;
-    -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
     width: 100%; }
     @media (max-width: 650px) {
       #header .m-menu {
-        -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap; } }
   #header li {
@@ -2351,7 +2347,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
     padding: 15px 40px;
     font-weight: 400;
     cursor: pointer;
-    -webkit-flex-basis: 220px;
     -ms-flex-preferred-size: 220px;
     flex-basis: 220px; }
     @media (max-width: 1199px) {
